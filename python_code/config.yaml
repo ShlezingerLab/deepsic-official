@@ -1,0 +1,11 @@
+# general
+seed: 0 # run seed
+
+# channel
+fading_in_channel: True # If the channel is fading/non-fading. values: [True, False]
+snr: 12 # validation SNR value. values: float.
+
+# validation phase protocol
+block_length: 10500 # coherence block time, total size of pilot + data. values: int.
+pilot_size: 500 # pilot bits
+blocks_num: 100 # number of validation frames. values: int.
