@@ -40,7 +40,7 @@ Includes the next files:
 
 (1) The backbone trainer.py which holds the most basic functions, including the network initialization and the sequential transmission in the channel and BER calculation. The trainer is a wrapper for the training and evaluation of the detector. Trainer holds the training, sequential evaluation of pilot + info blocks. It also holds the main function 'eval' that trains the detector and evaluates it, returning a list of coded ber/ser per block.
 
-(2) The DeepSIC trainer, which focuses on the online sequential training part, which is done layer-by-layer. Refer to Algorithm 3 in the paper for more details.
+(2) The DeepSIC trainer, which focuses on the online sequential training part (layer-by-layer). Refer to Algorithm 3 in the paper for more details.
 
 (3) The DeepSIC detector, which is the basic cell that runs the priors through the deep neural network, and later propagates these values through the iterations.
 
