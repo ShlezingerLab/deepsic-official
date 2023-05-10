@@ -1,7 +1,6 @@
 import torch
 from torch import nn
 
-from python_code import conf
 from python_code.utils.constants import N_ANTS, N_USERS
 
 HIDDEN_BASE_SIZE = 64
