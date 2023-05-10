@@ -1,4 +1,4 @@
-# deepsic-officia
+# deepsic-official
 
 A minimalistic python implementation of the Sequntial DeepSIC algorithm, published in:
 
